@@ -25,12 +25,12 @@ const Home = () => {
 
     return (
         <div className="main-container">
-            <h1>Book Library</h1>
+            <h1>Librarie</h1>
            <form onSubmit={handleSubmit}>
            
-            <input type="text" name="title" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="book title"/>
+            <input type="text" name="title" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Nom du livre"/>
              <br/>
-             <input type="text" name="author" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="book author"/>
+             <input type="text" name="author" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Nom de l'auteur"/>
              <br/>
              <input type="submit"/>
            </form>

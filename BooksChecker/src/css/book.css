@@ -1,0 +1,49 @@
+.book-container {
+  color: whitesmoke;
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  overflow-y: auto;
+  
+}
+
+.book-container button {
+  width: 8em;
+  height: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: .3em;
+  border: none;
+  font-weight: bolder;
+}
+
+.book-container button:focus {
+  outline: none;
+}
+
+.status-container {
+  width: 8em;
+  height: 1.5em;
+  border-radius: .3em;
+  border: none;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.status-container:focus {
+  outline: none;
+}
+
+.completed {
+  background-color: rgb(108, 192, 108);
+  border-radius: 2em;
+}
+
+.not-completed {
+  background-color: rgb(216, 99, 99);
+  border-radius: 2em;
+}

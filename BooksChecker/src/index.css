@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Telex&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #C2B280;
+  font-family: "Telex", sans-serif;
+}
+
+* {
+  box-sizing: inherit;
+  max-width: 100%;
+}
