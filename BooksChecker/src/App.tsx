@@ -1,4 +1,4 @@
-import Home from "./components/Home";
+import Home from "./components/Home.tsx";
 
 const App = () => {
     return (
@@ -8,4 +8,4 @@ const App = () => {
     );
   };
   
-  export default App;
+export default App;
