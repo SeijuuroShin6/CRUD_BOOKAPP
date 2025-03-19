@@ -34,7 +34,7 @@ const Home = () => {
              <br/>
              <input type="submit"/>
            </form>
-           {books ? <Books books={books} /> : "Loading"}
+           {books ? <Books books={books} /> : "Chargement"}
         </div>
     );
 };

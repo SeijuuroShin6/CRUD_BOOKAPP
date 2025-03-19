@@ -57,3 +57,22 @@ h1 {
 .main-container input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+footer {
+  position: absolute;
+  bottom: 2em;
+  left: 47%;
+}
+
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  gap: 2em;
+  width: 100%;
+  margin-top: 1em;
+}
